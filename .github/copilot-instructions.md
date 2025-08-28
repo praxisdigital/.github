@@ -1,5 +1,5 @@
 ---
-applyTo: "**/*.php"
+applyTo: "**/*.{php,feature},amd/**/*.js,style/**/*.{css,scss}"
 ---
 
 ## Coding Standards & Practices
@@ -17,6 +17,7 @@ applyTo: "**/*.php"
  
 - PHP is the primary backend language. Use the latest PHP version supported by Moodle (per version.php).
 - JavaScript must use ES6+ modules. Do not use jQuery, RequireJS, or YUI.
+- Match source JS files to compiled minified versions.
 - SASS/SCSS is used for styling, compiled via Grunt.
  
 ## Testing & Quality
@@ -25,3 +26,4 @@ applyTo: "**/*.php"
 - Target full coverage of business logic with unit tests.
 - Write fast unit tests and reinforce functionality with integration tests.
 - For frontend, use Behat and ensure at least one test per repository.
+- Don't use deprecated features.
