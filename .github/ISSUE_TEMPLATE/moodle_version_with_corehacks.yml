@@ -1,0 +1,19 @@
+name: "New Moodle Version"
+about: "Create a new Moodle version with all Moxis' corehacks"
+title: "New Moodle <version> with corehacks"
+type: "Task"
+labels: "Core hack, Core Change"
+assignees: ""
+body:
+  - type: textarea
+    attributes:
+      label: "Moodle Version"
+      description: "The complete version number of Moodle. Eg. 5.2.5"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Corehacks"
+      description: "You need to add all the corehacks that are included in the previous version. Add which corehacks you added."
+    validations:
+      required: true

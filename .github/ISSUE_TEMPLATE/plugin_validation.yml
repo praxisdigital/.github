@@ -1,0 +1,41 @@
+name: "Plugin Validation"
+about: "A task for validating a Moodle plugin via Opencode"
+title: "Moodle Plugin Validation: <PLUGIN NAME>"
+type: "Task"
+assignees: ""
+labels: "Analysis, Plugin Approval Moxis, Time registration"
+body:
+  - type: textarea
+    attributes:
+      label: "Describe the task"
+      description: "A clear and concise description of what the task is."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Plugin(s)"
+      description: "Please list the plugin(s) that need to be validated."
+      placeholder: |
+        block_pxheatmap (link including tag or commit to plugin) eg. https://github.com/praxisdigital/block_pxheatmap/commit/5ce9284b5eb37bcbd80f52e30066dc838f903316
+        qtype_stack (link including tag or commit to plugin) eg. https://github.com/maths/moodle-qtype_stack/tree/v4.10.0
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Customers"
+      description: "The name of the customer that needs to have a plugin validated."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Moodle version"
+      description: "The version of Moodle that the plugin is being validated against."
+  - type: textarea
+    attributes:
+      label: "Results"
+      description: |
+        When the report is finished, please attach the results here.
+        
+        Tip: You can attach files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
