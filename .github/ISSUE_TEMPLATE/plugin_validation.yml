@@ -1,5 +1,5 @@
 name: "Plugin Validation"
-about: "A task for validating a Moodle plugin via Opencode"
+description: "A task for validating a Moodle plugin via Opencode"
 title: "Moodle Plugin Validation: <PLUGIN NAME>"
 type: "Task"
 assignees: ""
