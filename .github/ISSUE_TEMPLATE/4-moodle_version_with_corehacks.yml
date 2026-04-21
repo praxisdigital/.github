@@ -13,6 +13,6 @@ body:
   - type: textarea
     attributes:
       label: "Corehacks"
-      description: "You need to add all the corehacks that are included in the previous version. Add which corehacks you added."
+      description: "You (the developer) need to add all the corehacks that are included in the previous version. Add which corehacks you added."
     validations:
-      required: true
+      required: false

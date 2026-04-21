@@ -4,21 +4,6 @@ title: "Moodle Plugin Validation: <PLUGIN NAME>"
 type: "Task"
 labels: "Analysis, Plugin Approval Moxis, Time registration"
 body:
-  - type: textarea
-    attributes:
-      label: "Describe the task"
-      description: "A clear and concise description of what the task is."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: "Plugin(s)"
-      description: "Please list the plugin(s) that need to be validated."
-      placeholder: |
-        block_pxheatmap (link including tag or commit to plugin) eg. https://github.com/praxisdigital/block_pxheatmap/commit/5ce9284b5eb37bcbd80f52e30066dc838f903316
-        qtype_stack (link including tag or commit to plugin) eg. https://github.com/maths/moodle-qtype_stack/tree/v4.10.0
-    validations:
-      required: true
   - type: input
     attributes:
       label: "Customer"
@@ -29,6 +14,17 @@ body:
     attributes:
       label: "Moodle version"
       description: "The version of Moodle that the plugin is being validated against."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Plugin(s)"
+      description: "Please list the plugin(s) that need to be validated (FULL URL including tag or commit)."
+      placeholder: |
+        block_pxheatmap (link including tag or commit to plugin) eg. https://github.com/praxisdigital/block_pxheatmap/commit/5ce9284b5eb37bcbd80f52e30066dc838f903316
+        qtype_stack (link including tag or commit to plugin) eg. https://github.com/maths/moodle-qtype_stack/tree/v4.10.0
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: "Results"

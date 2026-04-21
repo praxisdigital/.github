@@ -2,6 +2,12 @@ name: "Feature request"
 description: "Create a new feature"
 type: "Feature"
 body:
+  - type: input
+    attributes:
+      label: "Moodle Version"
+      description: "Which Moodle version is this feature for?"
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: "Describe the feature"

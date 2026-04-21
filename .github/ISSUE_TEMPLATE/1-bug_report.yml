@@ -2,6 +2,12 @@ name: "Bug report"
 description: "Create a report to help us improve"
 type: "Bug"
 body:
+  - type: input
+    attributes:
+      label: "Moodle Version"
+      description: "On which Moodle version was this bug found?"
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: "Describe the bug"
