@@ -4,7 +4,7 @@ title: "New Moodle <version> with corehacks"
 type: "Task"
 labels: "Core hack, Core Change"
 body:
-  - type: textarea
+  - type: input
     attributes:
       label: "Moodle Version"
       description: "The complete version number of Moodle. Eg. 5.2.5"
