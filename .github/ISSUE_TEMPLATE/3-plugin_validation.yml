@@ -19,13 +19,13 @@ body:
         qtype_stack (link including tag or commit to plugin) eg. https://github.com/maths/moodle-qtype_stack/tree/v4.10.0
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
-      label: "Customers"
+      label: "Customer"
       description: "The name of the customer that needs to have a plugin validated."
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
       label: "Moodle version"
       description: "The version of Moodle that the plugin is being validated against."
