@@ -1,5 +1,6 @@
 name: "Idea"
 description: "An idea for a new large feature or product"
+title: "Idea: <title>"
 type: Task
 labels: "Idea"
 body:
@@ -13,8 +14,9 @@ body:
     attributes:
       label: "Has any customers asked for this?"
       description: "Check if any customers have asked for this idea. If so, add a link to the HubSpot ticket."
-    validations:
-      required: false
+    options:
+      - label: Yes, one or more customers have asked for this idea.
+        required: false
   - type: input
     attributes:
       label: "Ticket link"
