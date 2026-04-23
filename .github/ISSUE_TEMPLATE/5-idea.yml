@@ -1,0 +1,40 @@
+name: "Idea"
+description: "An idea for a new large feature or product"
+type: "Idea"
+body:
+  - type: textarea
+    attributes:
+      label: "The problem"
+      description: "What is the problem this idea would solve? Describe the problem and how this idea would solve it."
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: "Has any customers asked for this?"
+      description: "Check if any customers have asked for this idea. If so, add a link to the HubSpot ticket."
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: "Ticket link"
+      description: "Add a link to the HubSpot ticket"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "How to proceed"
+      description: "What steps should be taken to implement this idea? (empiricism/data/research/etc.)"
+    validations:
+      required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: "Screenshots/videos"
+      description: "If applicable, add screenshots to help explain your problem."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Related issues"
+    validations:
+      required: false

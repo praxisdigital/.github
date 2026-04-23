@@ -14,7 +14,7 @@ body:
       description: "A clear and concise description of what the feature is."
     validations:
       required: true
-  - type: textarea
+  - type: upload
     attributes:
       label: "Screenshots/videos/Figma"
       description: "If applicable, add screenshots/figma links to show the new feature."
