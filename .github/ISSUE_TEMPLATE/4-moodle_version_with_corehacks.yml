@@ -1,7 +1,7 @@
 name: "New Moodle Version"
 description: "Create a new Moodle version with all Moxis' corehacks"
 title: "New Moodle <version> with corehacks"
-type: "Task"
+type: Task
 labels: "Core hack, Core Change"
 body:
   - type: input

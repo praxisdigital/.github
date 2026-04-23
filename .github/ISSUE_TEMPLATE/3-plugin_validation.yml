@@ -1,7 +1,7 @@
 name: "Plugin Validation"
 description: "A task for validating a Moodle plugin via Opencode"
 title: "Moodle Plugin Validation: <PLUGIN NAME>"
-type: "Task"
+type: Task
 labels: "Analysis, Plugin Approval Moxis, Time registration"
 body:
   - type: input

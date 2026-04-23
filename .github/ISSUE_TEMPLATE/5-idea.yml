@@ -1,6 +1,6 @@
 name: "Idea"
 description: "An idea for a new large feature or product"
-type: "Idea"
+type: Idea
 body:
   - type: textarea
     attributes:
