@@ -12,11 +12,11 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: "Has any customers asked for this?"
       description: "Check if any customers have asked for this idea. If so, add a link to the HubSpot ticket."
-    options:
-      - label: Yes, one or more customers have asked for this idea.
-        required: false
+      label: "Has any customers asked for this?"
+      options:
+        - label: Yes, one or more customers have asked for this idea.
+          required: false
   - type: input
     attributes:
       label: "Ticket link"
