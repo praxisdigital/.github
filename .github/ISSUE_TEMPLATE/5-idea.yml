@@ -1,8 +1,7 @@
 name: "Idea"
 description: "An idea for a new large feature or product"
 title: "Idea: <title>"
-type: Task
-labels: "Idea"
+type: Idea
 body:
   - type: textarea
     attributes:
