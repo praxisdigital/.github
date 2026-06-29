@@ -10,6 +10,15 @@ body:
       description: "The name of the customer that needs to have a plugin validated."
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: "Moodle flavor"
+      options:
+        - LMS (Default)
+        - MWP (Moodle Workplace)
+      description: "On which Moodle does the bug occur?"
+    validations:
+      required: true
   - type: input
     attributes:
       label: "Moodle version"

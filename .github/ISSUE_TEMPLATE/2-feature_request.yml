@@ -2,6 +2,15 @@ name: "Feature request"
 description: "Create a new feature"
 type: Feature
 body:
+  - type: dropdown
+    attributes:
+      label: "Moodle flavor"
+      options:
+        - LMS (Default)
+        - MWP (Moodle Workplace)
+      description: "On which Moodle does the bug occur?"
+    validations:
+      required: true
   - type: input
     attributes:
       label: "Moodle Version"

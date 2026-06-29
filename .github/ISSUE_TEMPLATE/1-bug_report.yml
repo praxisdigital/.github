@@ -2,6 +2,15 @@ name: "Bug report"
 description: "Create a report to help us improve"
 type: Bug
 body:
+  - type: dropdown
+    attributes:
+      label: "Moodle flavor"
+      options:
+        - LMS (Default)
+        - MWP (Moodle Workplace)
+      description: "On which Moodle does the bug occur?"
+    validations:
+      required: true
   - type: input
     attributes:
       label: "Moodle Version"
@@ -30,23 +39,23 @@ body:
       label: "Current behavior"
       description: "A clear and concise description of what currently happens."
     validations:
-      required: false
+      required: true
   - type: textarea
     attributes:
       label: "Expected behavior"
       description: "A clear and concise description of what you expected to happen."
     validations:
-      required: false
+      required: true
+  - type: input
+    attributes:
+      label: "Ticket link"
+      description: "Add a link to the HubSpot ticket if none create one or type 'N/A'"
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: "Screenshots/videos"
       description: "If applicable, add screenshots to help explain your problem."
-    validations:
-      required: false
-  - type: input
-    attributes:
-      label: "Ticket link"
-      description: "Add a link to the HubSpot ticket"
     validations:
       required: false
   - type: textarea
